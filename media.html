@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="stylesheet" rel="stylesheetass2.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="bg-purple-200 w-64 p-4 flex flex-col">
+            <div class="flex items-center mb-6">
+                <div class="bg-purple-400 p-2 rounded-full">
+                    <span class="text-white font-bold text-xl">W</span>
+                </div>
+                <span class="ml-3 text-2xl font-bold">Workspace</span>
+            </div>
+            <nav class="flex-grow">
+                <a href="home.html" class="flex items-center p-2 bg-purple-300 text-white rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">home</span>
+                </a>
+                <a href="customer.html" class="flex items-center p-2 text-gray-700 rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">Customers</span>
+                </a>
+                <a href="department.html" class="flex items-center p-2 text-gray-700 rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">Departments</span>
+                </a>
+                <a href="media.html" class="flex items-center p-2 text-gray-700 rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">Media</span>
+                </a>
+            </nav>
+            <div class="mt-auto">
+                <a href="myaccount.html" class="flex items-center p-2 text-gray-700 rounded">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">My Account</span>
+                </a>
+            </div>
+        </div>
+         <!-- Main content -->
+         <div class="flex-grow p-6">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-3xl font-bold">Dashboard</h1>
+                <input type="text" placeholder="Search in Home" class="p-2 border rounded">
+            </div>
+            <div class="max-w-5xl mx-auto p-4">
+                <!-- Images Section -->
+                <div class="mb-8">
+                  <div class="bg-yellow-200 text-xl font-bold p-2">IMAGES</div>
+                  <div class="grid grid-cols-4 gap-4 bg-white p-4 rounded-lg shadow-lg">
+                    <img src="th.jpeg" alt="Image 1" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 2" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 3" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 4" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 5" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 6" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 7" class="rounded-lg">
+                    <img src="th.jpeg" alt="Image 8" class="rounded-lg">
+                  </div>
+                </div>
+            
+                <!-- Video Section -->
+                <div class="mb-8">
+                  <div class="bg-yellow-200 text-xl font-bold p-2">VIDEO</div>
+                  <div class="grid grid-cols-4 gap-4 bg-white p-4 rounded-lg shadow-lg">
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">▶</span>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Audio Section -->
+                <div>
+                  <div class="bg-yellow-200 text-xl font-bold p-2">AUDIO</div>
+                  <div class="grid grid-cols-4 gap-4 bg-white p-4 rounded-lg shadow-lg">
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                    <div class="flex justify-center items-center bg-gray-200 rounded-lg">
+                      <span class="text-3xl">🔊</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="stylesheet" rel="stylesheetass2.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="bg-purple-200 w-64 p-4 flex flex-col">
+            <div class="flex items-center mb-6">
+                <div class="bg-purple-400 p-2 rounded-full">
+                    <span class="text-white font-bold text-xl">W</span>
+                </div>
+                <span class="ml-3 text-2xl font-bold">Workspace</span>
+            </div>
+            <nav class="flex-grow">
+                <a href="home.html" class="flex items-center p-2 bg-purple-300 text-white rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">home</span>
+                </a>
+                <a href="customer.html" class="flex items-center p-2 text-gray-700 rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">Customers</span>
+                </a>
+                <a href="department.html" class="flex items-center p-2 text-gray-700 rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">Departments</span>
+                </a>
+                <a href="media.html" class="flex items-center p-2 text-gray-700 rounded mt-2">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">Media</span>
+                </a>
+            </nav>
+            <div class="mt-auto">
+                <a href="myaccount.html" class="flex items-center p-2 text-gray-700 rounded">
+                    <span class="material-icons"></span>
+                    <span class="ml-3">My Account</span>
+                </a>
+            </div>
+        </div>
+         <!-- Main content -->
+         <div class="flex-grow p-6">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-3xl font-bold">Dashboard</h1>
+                <input type="text" placeholder="Search in Home" class="p-2 border rounded">
+            </div>
+        
+            <div class="overflow-auto">
+                <table class="min-w-full bg-white">
+                    <thead class="bg-gray-200">
+                        <tr>
+                            <th class="py-2 px-4">Customer ID</th>
+                            <th class="py-2 px-4">Department ID</th>
+                            <th class="py-2 px-4">Name</th>
+                            <th class="py-2 px-4">Email</th>
+                            <th class="py-2 px-4">Total Media Size</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="py-2 px-4">JRYT456</td>
+                            <td class="py-2 px-4">UHDSG</td>
+                            <td class="py-2 px-4">JOHN</td>
+                            <td class="py-2 px-4">skadJ@gmail.com</td>
+                            <td class="py-2 px-4">2 GB</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4">JHSAG636</td>
+                            <td class="py-2 px-4">ASDFJ</td>
+                            <td class="py-2 px-4">JANE</td>
+                            <td class="py-2 px-4">skadJ@gmail.com</td>
+                            <td class="py-2 px-4">0.4 GB</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4">ASJHAS77</td>
+                            <td class="py-2 px-4">SAEFF</td>
+                            <td class="py-2 px-4">BOB</td>
+                            <td class="py-2 px-4">skadJ@gmail.com</td>
+                            <td class="py-2 px-4">200 GB</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4">KSAHKJ366</td>
+                            <td class="py-2 px-4">AFEEE</td>
+                            <td class="py-2 px-4">MARY</td>
+                            <td class="py-2 px-4">skadJ@gmail.com</td>
+                            <td class="py-2 px-4">50 GB</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4">SAKJHD35</td>
+                            <td class="py-2 px-4">REYER</td>
+                            <td class="py-2 px-4">KARAN</td>
+                            <td class="py-2 px-4">skadJ@gmail.com</td>
+                            <td class="py-2 px-4">45 GB</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4">KKHUASU33</td>
+                            <td class="py-2 px-4">HJHGF</td>
+                            <td class="py-2 px-4">CHRISSY</td>
+                            <td class="py-2 px-4">skadJ@gmail.com</td>
+                            <td class="py-2 px-4">500 GB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
